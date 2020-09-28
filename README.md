@@ -86,8 +86,7 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects log files that contain log events that are then shipped into a monitoring cluster. The logs are then accessible through the Monitoring page on Kibana.
--Filebeat collets: audit logs, deprecation logs, GC logs, sever logs and slow logs.
+- Filebeat collects log files that contain log events that are then shipped into a monitoring cluster. The logs are then accessible through the Monitoring page on Kibana.  -Filebeat collets: audit logs, deprecation logs, GC logs, sever logs and slow logs.
 
 - Metricbeat collets system-wide and per-process statistics about the Central Processing Unit (CPU) and memory while the machines are running.
 
