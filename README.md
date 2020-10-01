@@ -45,6 +45,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the ELK machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Host IP address 
+- Jump-Box IP address
 
 Machines within the network can only be accessed by Jump-Box-Provisioner.
 - The Jump_Box VM is allowed to access the ELK VM via SSH on port 22 with Public IP Address for the ELK VM.
